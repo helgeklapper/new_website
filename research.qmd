@@ -1,0 +1,78 @@
+---
+pagetitle: "Research · Helge Klapper"
+page-layout: custom
+listing:
+  - id: pubs
+    contents: data/publications.yml
+    template: _templates/pubs.ejs
+    sort: false
+  - id: wps
+    contents: data/working-papers.yml
+    template: _templates/pubs.ejs
+    sort: false
+---
+
+::: {.wrap}
+
+::: {.hero .sub}
+```{=html}
+<h1>Research</h1>
+```
+
+::: {.cols}
+[My research focuses on organization design, in particular on novel and non-hierarchical forms of organizing. Two lines run through the work: coordination inside non-hierarchical organizations, and non-hierarchical organizing across organizational boundaries. Technology, which makes new coordination arrangements possible, connects the two.]{.lede}
+:::
+
+```{=html}
+<div class="filter" role="group" aria-label="Filter papers by theme">
+  <button type="button" data-filter="all" aria-pressed="true">All</button>
+  <button type="button" data-filter="coordination" aria-pressed="false">Coordination without hierarchy</button>
+  <button type="button" data-filter="learning" aria-pressed="false">Learning in online communities</button>
+  <button type="button" data-filter="ai" aria-pressed="false">Algorithms and AI</button>
+  <button type="button" data-filter="blockchain" aria-pressed="false">Blockchain and decentralized organizing</button>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var btns = document.querySelectorAll('.filter button');
+  function apply(t) {
+    btns.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.filter === t)); });
+    document.querySelectorAll('.pub-list').forEach(function (list) {
+      var stage = null, stageHas = false, any = false;
+      Array.prototype.forEach.call(list.children, function (el) {
+        if (el.classList.contains('stage')) { if (stage) stage.hidden = !stageHas; stage = el; stageHas = false; return; }
+        if (!el.classList.contains('pub')) return;
+        var show = t === 'all' || (' ' + el.dataset.themes + ' ').indexOf(' ' + t + ' ') > -1;
+        el.hidden = !show; if (show) { stageHas = true; any = true; }
+      });
+      if (stage) stage.hidden = !stageHas;
+    });
+    var u = new URL(location); if (t === 'all') u.searchParams.delete('theme'); else u.searchParams.set('theme', t);
+    history.replaceState(null, '', u);
+  }
+  btns.forEach(function (b) { b.addEventListener('click', function () { apply(b.dataset.filter); }); });
+  var t = new URLSearchParams(location.search).get('theme');
+  if (t && document.querySelector('.filter [data-filter="' + t + '"]')) apply(t);
+});
+</script>
+```
+:::
+
+::: {.sect}
+[Publications]{.label}
+
+::: {.body}
+::: {#pubs}
+:::
+:::
+:::
+
+::: {.sect}
+[Working papers]{.label}
+
+::: {.body}
+::: {#wps}
+:::
+:::
+:::
+
+:::

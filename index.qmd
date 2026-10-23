@@ -1,0 +1,80 @@
+---
+pagetitle: "Helge Klapper · Strategy, Purdue University"
+page-layout: custom
+body-classes: home
+listing:
+  id: recent
+  contents: data/publications.yml
+  template: _templates/pubs.ejs
+  sort: false
+  max-items: 4
+---
+
+::: {.wrap}
+
+::: {.hero}
+```{=html}
+<h1>Helge<br>Klapper</h1>
+```
+
+::: {.cols}
+::: {.role}
+Assistant Professor of Strategy\
+Daniels School of Business, Purdue University
+
+[Helge is pronounced HEL-geh (as in "get"). Or however you prefer.]{.say}
+
+![](images/headshot-wide.jpg){.portrait fig-alt="Helge Klapper"}
+:::
+
+::: {.about}
+I study organization design, in particular novel, non-hierarchical forms of organizing such as Wikipedia, open-source communities, blockchain networks, and organizations that work alongside AI agents. My research asks how these organizations allocate tasks, make decisions, and resolve conflicts without relying on traditional authority, and what that means for their performance. I work in four methodological traditions: econometric analysis of digital-trace data, agent-based and formal models, laboratory experiments, and qualitative case studies.
+
+Before joining Purdue in 2023, I was Assistant Professor of Innovation Management at the Rotterdam School of Management. I received my PhD with distinction from the University of Vienna. I serve on the editorial review boards of *Strategic Organization*, the *Journal of Organization Design*, and *Strategy Science*.
+
+::: {.links}
+[Publications](research.qmd)
+[CV (PDF)](https://papers.helgeklapper.org/Klapper%20CV.pdf)
+[GitHub](https://github.com/helgeklapper)
+[hklapper@purdue.edu](mailto:hklapper@purdue.edu)
+:::
+:::
+:::
+:::
+
+::: {.sect}
+[Research themes]{.label}
+
+::: {.body}
+```{=html}
+<div class="themes four">
+  <a class="theme" href="research.html?theme=coordination"><strong>Coordination without hierarchy</strong><p>How organizations allocate tasks, make decisions, and resolve conflicts when authority is shared, delegated, or absent.</p><span class="go">See papers</span></a>
+  <a class="theme" href="research.html?theme=learning"><strong>Learning in online communities</strong><p>When decentralized learning converges too early, and which task environments prevent it.</p><span class="go">See papers</span></a>
+  <a class="theme" href="research.html?theme=ai"><strong>Algorithms and AI</strong><p>What happens to coordination when some of the decision-makers are not human.</p><span class="go">See papers</span></a>
+  <a class="theme" href="research.html?theme=blockchain"><strong>Blockchain and decentralized organizing</strong><p>Why decentralized organizations adopt the governance they do, and why it is so hard to change.</p><span class="go">See papers</span></a>
+</div>
+```
+:::
+:::
+
+::: {.sect}
+[Recent publications]{.label}
+
+::: {.body}
+::: {#recent}
+:::
+
+[All publications and working papers](research.qmd){.more}
+:::
+:::
+
+::: {.sect}
+[Contact]{.label}
+
+::: {.body}
+Young Building, Room 1025, 155 S Grant St, West Lafayette, IN 47907\
+[hklapper@purdue.edu](mailto:hklapper@purdue.edu)
+:::
+:::
+
+:::

@@ -1,0 +1,22 @@
+<%
+const me = "Klapper, H.";
+const showAbbr = items.some(i => i.abbr);
+let lastStage = null;
+%>
+```{=html}
+<div class="pub-list">
+<% for (const item of items) { const main = item.stage ? null : (item.links || [])[0]; const hasLinks = item.abstract || (item.links && item.links.length); const themes = (item.themes || []).join(' '); %>
+<% if (item.stage && item.stage !== lastStage) { lastStage = item.stage; %><div class="stage"><%= item.stage %></div><% } %>
+<div class="pub<%= showAbbr ? '' : ' noabbr' %>" data-themes="<%= themes %>" <%= metadataAttrs(item) %>><% if (showAbbr) { %><div class="pub-abbr" title="<%= item.venue ?? '' %>"><%= item.abbr ?? '' %></div><% } %><div><div class="pub-title"><% if (main) { %><a href="<%= main.url %>"><%= item.title %></a><% } else { %><%= item.title %><% } %></div><% if (item.summary) { %><p class="pub-summary"><%= item.summary %></p><% } %><div class="pub-authors"><% const parts = String(item.authors ?? "").split(me); parts.forEach((pt, i) => { %><%= pt %><% if (i < parts.length - 1) { %><strong><%= me %></strong><% } %><% }) %></div><% if (item.venue) { %><div class="pub-venue"><em><%= item.venue %></em><% if (item.details) { %>, <%= item.details %><% } %></div><% } %><% if (item.status) { %><div class="pub-status"><%= item.status %></div><% } %><% if (item.note) { %><div class="pub-note"><%= item.note %></div><% } %><% if (hasLinks) { %><div class="pub-links"><% if (item.abstract) { %><button type="button" class="abs-toggle" aria-expanded="false">Abstract</button><% } %><% for (const l of (item.links || [])) { %><a href="<%= l.url %>"><%= l.label %></a><% } %></div><% } %><% if (item.abstract) { %><p class="pub-abs" hidden><%= item.abstract %></p><% } %></div><div class="pub-year"><%= item.year ?? "" %></div></div>
+<% } %>
+</div>
+<script>
+if (!window.__pubsInit) { window.__pubsInit = true;
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest('.abs-toggle'); if (!b) return;
+    var p = b.closest('.pub').querySelector('.pub-abs'); var open = b.getAttribute('aria-expanded') === 'true';
+    b.setAttribute('aria-expanded', String(!open)); p.hidden = open;
+  });
+}
+</script>
+```

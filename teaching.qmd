@@ -1,0 +1,126 @@
+---
+pagetitle: "Teaching · Helge Klapper"
+page-layout: custom
+---
+
+::: {.wrap}
+
+::: {.hero .sub}
+```{=html}
+<h1>Teaching</h1>
+```
+
+::: {.cols}
+[I want students to leave with two things: a toolkit for their daily work, and the habit of using scientific reasoning and evidence, so they can see through the next management fad.]{.lede}
+:::
+:::
+
+::: {.sect}
+[How I teach]{.label}
+
+::: {.body}
+::: {.prose}
+My classes combine a flipped classroom with case-based discussion. Students prepare the material in advance, so class time works as a discussion rather than a lecture, and each session leaves room for students to steer it: when the questions and the proposed solutions come from them, they remember them. We taste Tony's Chocolonely chocolate before taking apart the company's strategy, and run a blind soda tasting to open the Cola Wars case.
+
+I treat generative AI as a complement, not a substitute. Every assessment carries its own AI rule, and in "Invent the Quiz" students write exam questions themselves: a chatbot can draft one, but a plausible wrong answer only works if you understand where a concept actually gets difficult.
+:::
+
+::: {.quote}
+“He never lectures AT you; he sets up each class session in a way that gets students participating and paying attention.”
+
+[Student evaluation, MGMT 35200]{.meta}
+:::
+:::
+:::
+
+::: {.sect}
+[Purdue University]{.label}
+
+::: {.body}
+::: {.item}
+[Strategic Management · MGMT 35200]{.name}
+
+[Undergraduate core course, since 2023. Redesigned through Purdue's IMPACT course-transformation program into eight modules, from industry structure to stakeholder strategy, with a case pack refreshed every year.]{.desc}
+
+[Distinguished Instructor, Spring 2023, Fall 2023, Spring 2025 · IMPACT Faculty Fellow, 2024]{.meta}
+:::
+
+::: {.item}
+[Innovation Management · MGMT 44630]{.name}
+
+[An elective I developed as a new course, first offered in 2025. Built around a four-phase framework (search, select, implement, capture), with modules on AI-powered, agile, non-hierarchical, and remote organizations.]{.desc}
+
+[Distinguished Instructor, Spring 2025]{.meta}
+:::
+
+::: {.item}
+[Micro-Structural Analysis and Modeling of Organizations · MGMT 69000]{.name}
+
+[Doctoral seminar on the micro-structural approach to organization design. Students learn computational modeling in Python and finish by building their own agent-based model. See the [Code](code.qmd) page for models used in class.]{.desc}
+
+[Spring 2024]{.meta}
+:::
+
+[Distinguished Instructor in every semester in which Purdue awarded it · Nominated for Most Distinguished Faculty for Academics, Purdue Residential Academic Initiatives, 2023]{.meta}
+:::
+:::
+
+::: {.sect}
+[Rotterdam School of Management]{.label}
+
+::: {.body}
+::: {.item}
+[Strategy of Innovation]{.name}
+
+[MSc Management of Innovation, 2020–2023]{.meta}
+:::
+
+::: {.item}
+[Innovation Management]{.name}
+
+[MSc, 2020–2022 · [Course manual (PDF)](https://papers.helgeklapper.org/BM02MI_21-22%20Final.pdf)]{.meta}
+:::
+
+::: {.item}
+[Disruptive Innovations]{.name}
+
+[MSc, 2017–2020]{.meta}
+:::
+
+::: {.item}
+[Innovation Projects and Teams]{.name}
+
+[2017–2019]{.meta}
+:::
+
+::: {.item}
+[Executive programs on (digital) innovation]{.name}
+
+[2017–2022]{.meta}
+:::
+
+[RSM Innovative Teaching Award, 2020 · Highest-rated course in two MSc programs · More than 50 master's theses supervised]{.meta}
+:::
+:::
+
+::: {.sect}
+[Agent-based modeling]{.label}
+
+::: {.body}
+Beyond my own courses, I teach agent-based models for organizational research, including at the PhD Summer School of the Theory of Organizational Models (TOM) Society.
+
+::: {.item}
+[[Information aggregation models](https://sites.google.com/view/tomsociety/2021-summer-school/226-information-aggregation-models)]{.name}
+
+[TOM Society PhD Summer School session]{.meta}
+:::
+
+::: {.item}
+[[Why model?](https://sites.google.com/view/tomsociety/why-model/helge-klapper-u-of-erasmus)]{.name}
+
+[Video for the TOM Society]{.meta}
+:::
+:::
+:::
+
+:::

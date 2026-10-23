@@ -1,0 +1,62 @@
+---
+pagetitle: "Code · Helge Klapper"
+page-layout: custom
+---
+
+::: {.wrap}
+
+::: {.hero .sub}
+```{=html}
+<h1>Code</h1>
+```
+
+::: {.cols}
+[Most of my theory work starts as a simulation. The models from my papers are open source, mostly in Python, so you can check the assumptions, rerun the results, or build on them.]{.lede}
+:::
+:::
+
+::: {.sect}
+[Models from papers]{.label}
+
+::: {.body}
+::: {.item}
+[[deliberation](https://github.com/helgeklapper/deliberation)]{.repo-id}
+
+[Agents with partial information deliberate over a social network and then vote. Parameters set group size, information quality, network density, and the strength of conformity pressure, and a built-in sweep compares any two of them.]{.desc}
+
+[Python · NumPy, NetworkX · for Klapper, Maciejovsky, Puranam & Reitzig (2026), *Strategic Organization*]{.meta}
+:::
+
+::: {.item}
+[[nearmiss](https://github.com/helgeklapper/nearmiss)]{.repo-id}
+
+[Organizational learning model with near misses.]{.desc}
+
+[Python · for working paper with J. Madiedo]{.meta}
+:::
+
+::: {.item}
+[[socialinfluence](https://github.com/helgeklapper/socialinfluence)]{.repo-id}
+
+[Simulates information sharing and voting in a group.]{.desc}
+
+[Python]{.meta}
+:::
+:::
+:::
+
+::: {.sect}
+[Replications for teaching]{.label}
+
+::: {.body}
+::: {.item}
+[[Organizational-Decision-Making](https://github.com/helgeklapper/Organizational-Decision-Making)]{.repo-id}
+
+[A replication of Csaszar & Eggers (2013), *Management Science*. The paper solves its integrals numerically; this version simulates the same decision structures with random draws, which makes it easier to follow in class.]{.desc}
+
+[Python · written for teaching]{.meta}
+:::
+:::
+:::
+
+:::

@@ -1,0 +1,87 @@
+# Working papers. Same fields as publications.yml (year optional).
+# `stage` groups the list: keep all "Under review" papers first, then "Work in progress".
+# `themes`: any of coordination, learning, ai, blockchain (drives the filter on the Research page).
+# `summary`: one plain-language sentence. Do not name the journal for papers under review.
+
+- title: "A model of group decision-making and centralization"
+  authors: "Klapper, H., Maciejovsky, B., & Reitzig, M."
+  stage: "Under review"
+  themes: [coordination]
+  summary: "A formal model of when centralized versus decentralized structures aggregate dispersed information better."
+  note: "Earlier version: Academy of Management Proceedings, 2019"
+  links:
+    - label: AOM Proceedings
+      url: "https://doi.org/10.5465/AMBPP.2019.11990"
+
+- title: "Learning without converging: The role of decomposability"
+  authors: "Ubert, E., Klapper, H., & Haans, R."
+  stage: "Under review"
+  themes: [learning]
+  summary: "How decentralized online communities converge prematurely on solutions, and which task environments prevent it, studied in speedrunning."
+  note: "Earlier version in the Academy of Management Best Paper Proceedings, 2025, as “The dual effect of multi-actor search”"
+  links:
+    - label: AOM Proceedings
+      url: "https://doi.org/10.5465/AMPROC.2025.4bp"
+
+- title: "Corporate blockchains and imprinting"
+  authors: "Goldsby, C., Hanisch, M., & Klapper, H."
+  stage: "Work in progress"
+  themes: [blockchain]
+  summary: "Why blockchain consortia fail to adapt their governance: the barrier is not the technology but initial design choices that become imprinted and are never questioned."
+  note: "Distinguished Paper Award, Strategic Management Division, Academy of Management 2023 · Best Paper nominee, Strategic Management Society 2023"
+  links:
+    - label: AOM Proceedings
+      url: "https://doi.org/10.5465/AMPROC.2023.211bp"
+
+- title: "Human coordination shapes the promise and limits of autonomous agents"
+  authors: "Zhang, J., Luo, K., Clement, J., & Klapper, H."
+  stage: "Work in progress"
+  themes: [ai]
+  summary: "How human coordination structures shape when autonomous AI agents succeed and when they fail."
+
+- title: "Organizational decision-making and AI"
+  authors: "Wan, C., Klapper, H., & Li, T."
+  stage: "Work in progress"
+  themes: [ai]
+  summary: "A formal model of how organizations should aggregate human and algorithmic evaluations under sequential versus simultaneous decision structures."
+
+- title: "Delegation and decentralized organizations"
+  authors: "Klapper, H., Hsieh, Y.-Y., & Janjic, R."
+  stage: "Work in progress"
+  themes: [blockchain]
+  summary: "Whether and when DAOs adopt vote delegation, and how delegation affects participation."
+  note: "Early version in the Academy of Management Proceedings, 2026, as “The promise and reality of democratic organizing: Vote delegation”"
+  links:
+    - label: AOM Proceedings
+      url: "https://doi.org/10.5465/AMPROC.2026.21238abstract"
+
+- title: "Attribution in hierarchical decision-making"
+  authors: "Grohsjean, T., Klapper, H., & Piezunka, H."
+  stage: "Work in progress"
+  themes: [coordination]
+  summary: "An archival study of how outcomes are attributed to leaders rather than to circumstances."
+
+- title: "Autonomous team formation in organizations"
+  authors: "Lego, T., Klapper, H., & Reitzig, M."
+  stage: "Work in progress"
+  themes: [learning, coordination]
+  summary: "How members of a non-hierarchical organization sort themselves into teams."
+
+- title: "Algorithms as leaders"
+  authors: "Hoseinpour, M., Stam, D., & Klapper, H."
+  stage: "Work in progress"
+  themes: [ai]
+  summary: "People can conceive of algorithms as leaders, but judge them poor ones."
+
+- title: "AI and organization design"
+  authors: "Lee, M., & Klapper, H."
+  stage: "Work in progress"
+  themes: [ai]
+
+- title: "Organizational learning from near misses"
+  authors: "Klapper, H., & Madiedo, J."
+  stage: "Work in progress"
+  themes: [learning]
+  links:
+    - label: Code
+      url: "https://github.com/helgeklapper/nearmiss"

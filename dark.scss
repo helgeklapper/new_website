@@ -1,0 +1,16 @@
+/*-- scss:defaults --*/
+$body-bg: #000000 !default;
+$body-color: #FFFFFF !default;
+
+/*-- scss:rules --*/
+// Dark mode: same system inverted. Ultramarine is lifted so it stays readable on black.
+:root { --ink: #FFFFFF; --ink-2: #DADADA; --paper: #000000; --accent: #8FA6FF; --gray: #A8A8A8; --soft: #15171E;
+  --bs-body-bg: #000000; --bs-body-color: #FFFFFF; --bs-link-color: #8FA6FF; --bs-link-hover-color: #B4C3FF; }
+body, .navbar, #quarto-header, .nav-footer, footer.footer { background-color: #000000 !important; color: #FFFFFF; }
+a { color: var(--accent); }
+.navbar .nav-link, .navbar .navbar-nav:first-child .nav-link { color: #FFFFFF; }
+.navbar .nav-link.active, .navbar .nav-link:hover { color: var(--accent); }
+.navbar .quarto-color-scheme-toggle .bi::before, .navbar .bi { color: #FFFFFF; }
+.hero .role .portrait { filter: brightness(0.92); }
+
+.quarto-color-scheme-toggle, #quarto-search .aa-DetachedSearchButton, #quarto-search .aa-SubmitIcon, .navbar-toggler { filter: invert(1); }

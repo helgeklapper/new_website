@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - CNAME
+    - fonts/
+    - papers/
+  render:
+    - "*.qmd"
+    - "!README.md"
+    - "!CLAUDE.md"
+
+website:
+  title: "Helge Klapper"
+  site-url: https://www.helgeklapper.org
+  description: "Helge Klapper, Assistant Professor of Strategy at the Daniels School of Business, Purdue University. Research on organization design, decentralization, and group decision-making."
+  favicon: images/favicon.svg
+  open-graph: true
+  search: false
+  navbar:
+    left:
+      - text: Helge Klapper
+        href: index.qmd
+    right:
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - href: code.qmd
+        text: Code
+      - text: CV
+        href: https://papers.helgeklapper.org/Klapper%20CV.pdf
+      - icon: github
+        href: https://github.com/helgeklapper
+        aria-label: GitHub
+      - icon: envelope
+        href: mailto:hklapper@purdue.edu
+        aria-label: Email
+  page-footer:
+    left: "Helge Klapper"
+    right: "Daniels School of Business · Purdue University"
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+      dark: [cosmo, styles.scss, dark.scss]
+    respect-user-color-scheme: true
+    css: fonts/fonts.css
+    toc: false
+    page-layout: custom
+    smooth-scroll: true
+    anchor-sections: false
+    title-block-style: none

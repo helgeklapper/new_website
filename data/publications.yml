@@ -1,0 +1,152 @@
+# Published and forthcoming articles. Newest first.
+# Edit this file to update the Research page. Fields:
+#   title, authors, year, venue, abbr (journal initials shown large), details (vol/issue/pages),
+#   note (awards etc.), themes (coordination / learning / ai / blockchain), summary (one plain-language sentence),
+#   abstract, links: list of {label, url}
+# Host a PDF only if the article is open access (check the license on page 1). Put it in papers/.
+
+- title: "Collaboration post-acquisition: The role of acquirers' motives"
+  themes: [coordination]
+  summary: "Collaborations with a target's partners often fade after an acquisition, yet they are a reason to acquire. Protection-motivated acquirers see collaboration intensify; extraction-motivated acquirers, after code or talent, see it decline."
+  authors: "Piezunka, H., Klapper, H., Vetter, M., & Henkel, J."
+  year: 2026
+  venue: "Strategic Management Journal"
+  abbr: SMJ
+  details: "online first"
+  abstract: >-
+    What role do collaborations with a target's partners play in an acquisition, and how do these
+    collaborations evolve post-acquisition? Research suggests that these collaborations are an important
+    reason to acquire but often diminish post-acquisition. But if they tend to diminish, why are they a
+    reason to acquire? Our analysis of acquirers' motives of 143 acquisitions of firms that collaborate with
+    partners on 298 open-source projects resolves the outlined puzzle and reveals two types of acquisition
+    motives: protection-motivated acquisitions, where acquirers focus on protecting the complementarity with
+    the technology and the partners, and extraction-motivated acquisitions, where acquirers focus on
+    extracting technology and employees. We find that protection-motivated acquisitions are associated with
+    an intensification of collaborations, meanwhile extraction-motivated acquisitions are associated with a
+    diminishment of the collaboration. We contribute to research on acquisitions, collaboration, and OSS.
+  links:
+    - label: Article
+      url: "https://doi.org/10.1002/smj.70096"
+    - label: PDF
+      url: "papers/piezunka-klapper-vetter-henkel-2026-collaboration-post-acquisition.pdf"
+
+- title: "Talk isn't always cheap: A theory of social influence and deliberation in group decision-making"
+  themes: [coordination]
+  summary: "Decentralized organizations rely on deliberation to do what a manager would otherwise do. Whether a group then outperforms its average member, or its best, depends on how its network channels informational against normative influence."
+  authors: "Klapper, H., Maciejovsky, B., Puranam, P., & Reitzig, M."
+  year: 2026
+  venue: "Strategic Organization"
+  abbr: SO
+  details: "online first"
+  abstract: >-
+    Organizations often rely on deliberative groups (committees, taskforces, boards) to make decisions,
+    yet deliberation's effectiveness remains contested. When can deliberation help a group outperform the
+    average or even the best individual in the group? We propose that the value of deliberation depends on
+    how the network structure of the group shapes informational influence (which promotes updating beliefs
+    based on perceived expertise) and normative influence (which drives conformity to gain social approval).
+    Using an agent-based model, we show that deliberation can help groups achieve strong synergy effects
+    (i.e. outperform the best individual in the group) if members typically recognize each other's relative
+    expertise at better than chance levels, and when the network structure neither isolates any members nor
+    allows for clustering and cliques. Moreover, introducing a few actors into the network who are impervious
+    to conformity (such as AI agents) can improve group decision quality even if these actors are no better
+    than random chance at recognizing expertise. We draw implications for how to compose and structure group
+    deliberation processes to improve the chances of obtaining effective decisions.
+  links:
+    - label: Article
+      url: "https://journals.sagepub.com/doi/10.1177/14761270261419599"
+    - label: Code
+      url: "https://github.com/helgeklapper/deliberation"
+
+- title: "Peer evaluations: Evaluating and being evaluated"
+  themes: [coordination]
+  summary: "Members about to be evaluated take part in more peer evaluations while choosing carefully which ones. Firms that adopt peer evaluation should expect it to be gamed in predictable ways."
+  authors: "Klapper, H., Piezunka, H., & Dahlander, L."
+  year: 2024
+  venue: "Organization Science"
+  abbr: OS
+  details: "35(4), 1363–1387"
+  abstract: >-
+    Peer evaluations place organizational members in a dual role: they evaluate their peers and are being
+    evaluated by their peers. We theorize that when evaluating their peers, they anticipate how their
+    evaluations will be perceived and adjust their evaluations strategically to be evaluated more positively
+    themselves when their peers assess them. Building on this overarching claim of role duality resulting in
+    strategic peer evaluations, we focus on a dilemma that evaluating members face: they want to leverage
+    their evaluations of peers to portray themselves as engaged and having high standards, but at the same
+    time, they must be careful not to offend anyone as doing so may cause retaliation. We suggest that
+    organizational members about to be evaluated resolve this dilemma by participating in more peer
+    evaluations but carefully targeting which evaluations they participate in. We test our theory by
+    analyzing peer evaluations on Wikipedia, supplemented by in-depth semistructured interviews. Our study
+    informs research on peer evaluation and organizational design by revealing how being an evaluator and
+    evaluated can make evaluations more strategic.
+  links:
+    - label: Article
+      url: "https://pubsonline.informs.org/doi/10.1287/orsc.2021.15302"
+    - label: PDF
+      url: "papers/klapper-piezunka-dahlander-2024-peer-evaluations.pdf"
+    - label: Appendix
+      url: "papers/klapper-piezunka-dahlander-2024-peer-evaluations-appendix.pdf"
+
+- title: "Managing exploration in organizations: The effect of superior monitoring on subordinate search behavior"
+  themes: [coordination]
+  summary: "Monitored subordinates search more than they otherwise would, to show visible effort. That points to a hidden cost of flat designs: without monitoring, employees explore less."
+  authors: "Richter, V., Janjic, R., Klapper, H., Keck, S., & Reitzig, M."
+  year: 2023
+  venue: "Strategic Management Journal"
+  abbr: SMJ
+  details: "44(9), 2226–2254"
+  abstract: >-
+    In this article, we explore the effects of managerial monitoring on the behavior of subordinates tasked
+    with the search for alternatives in a complex environment. We argue that managerial monitoring will lead
+    subordinates to exhibit more search than they would engage in otherwise as they try to impress their
+    superiors by exerting more effort. We test and confirm our hypothesis in four laboratory studies with a
+    total of 444 participants. Our findings show that search distance and duration are highly susceptible to
+    managerial monitoring, whereas similar interventions from peers and subordinates are ineffective.
+  links:
+    - label: Article
+      url: "https://doi.org/10.1002/smj.3491"
+    - label: PDF
+      url: "papers/richter-et-al-2023-managing-exploration.pdf"
+
+- title: "On the effects of authority on peer motivation: Learning from Wikipedia"
+  themes: [coordination]
+  summary: "Why does anyone accept being overruled by someone with no formal power over them? Lateral authority can settle coordination conflicts without the motivational cost that hierarchy usually imposes."
+  authors: "Klapper, H., & Reitzig, M."
+  year: 2018
+  venue: "Strategic Management Journal"
+  abbr: SMJ
+  details: "39(8), 2178–2203"
+  abstract: >-
+    We investigate the conditions under which authority can be deployed without reducing subordinate
+    motivation. We show that lateral authority, the legitimacy to resolve task-specific problems, is welcomed
+    by members of an organization in the resolution of coordination conflicts, the more so (a) the fiercer
+    the conflict to be resolved, (b) the higher the competence-based status of the authority, (c) the lower
+    the tenure of, and (d) the more focused the organizational members are. Analyzing the discussion behavior
+    of members of Wikipedia between 2002 and 2014, we corroborate our allegations empirically by analyzing
+    642,916 article–discussion pages. Our findings, obtained for a modern collective production community,
+    provide learning opportunities for how traditional organizations may want to govern activities of their
+    idiosyncratically motivated staff.
+  links:
+    - label: Article
+      url: "https://doi.org/10.1002/smj.2909"
+    - label: PDF
+      url: "https://papers.helgeklapper.org/Klapper_et_al-2018-Strategic_Management_Journal.pdf"
+
+- title: "Surrendering control to gain advantage: Reconciling openness and the resource-based view of the firm"
+  themes: [coordination]
+  summary: "Access to an open resource, as part of a bundle, can give control without ownership, which changes what competitive advantage rests on when innovation is open."
+  authors: "Alexy, O., West, J., Klapper, H., & Reitzig, M."
+  year: 2018
+  venue: "Strategic Management Journal"
+  abbr: SMJ
+  details: "39(6), 1704–1727"
+  abstract: >-
+    Strategic openness (firms voluntarily forfeiting control over resources) seemingly challenges the premise
+    of the resource-based view (RBV), which posits that firms should control valuable, rare, and inimitable
+    (VRI) resources. We reconcile this apparent paradox by formalizing whether and when firms, consisting of
+    resource bundles and deriving competitive advantage from exploiting selected VRI resources, may maximize
+    profitability by opening parts of their resource base. As such, our article refines RBV-related thinking
+    while supporting the theory's core tenets. Notably, we illustrate how a common-pool resource can become
+    a source of competitive advantage and how firms may use openness to shape inter-firm competition.
+  links:
+    - label: Article
+      url: "https://doi.org/10.1002/smj.2706"

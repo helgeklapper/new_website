@@ -1,0 +1,15 @@
+# Build output
+/.quarto/
+/_site/
+*_files/
+
+# Local only
+*.code-workspace
+_to_delete/
+.Rproj.user/
+
+# Source material that should not be public:
+# original PDFs (open-access copies live in papers/)
+data/papers/
+# full-size photo originals (the site uses images/headshot.jpg)
+images/BPR_*.jpg
