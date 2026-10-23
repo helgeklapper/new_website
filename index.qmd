@@ -30,7 +30,7 @@ Daniels School of Business, Purdue University
 ::: {.about}
 I study organization design, in particular novel, non-hierarchical forms of organizing such as Wikipedia, open-source communities, blockchain networks, and organizations that work alongside AI agents. My research asks how these organizations allocate tasks, make decisions, and resolve conflicts without relying on traditional authority, and what that means for their performance. I work in four methodological traditions: econometric analysis of digital-trace data, agent-based and formal models, laboratory experiments, and qualitative case studies.
 
-Before joining Purdue in 2023, I was Assistant Professor of Innovation Management at the Rotterdam School of Management. I received my PhD with distinction from the University of Vienna. I serve on the editorial review boards of *Strategic Organization*, the *Journal of Organization Design*, and *Strategy Science*.
+Before joining Purdue in 2023, I was Assistant Professor of Innovation Management at the Rotterdam School of Management. I received my PhD from the University of Vienna. I serve on the editorial review boards of *Strategic Organization*, the *Journal of Organization Design*, and *Strategy Science*.
 
 ::: {.links}
 [Publications](research.qmd)
