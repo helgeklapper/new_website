@@ -13,3 +13,5 @@ _to_delete/
 data/papers/
 # full-size photo originals (the site uses images/headshot.jpg)
 images/BPR_*.jpg
+
+**/*.quarto_ipynb

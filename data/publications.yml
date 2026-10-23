@@ -60,7 +60,7 @@
       url: "https://github.com/helgeklapper/deliberation"
 
 - title: "Peer evaluations: Evaluating and being evaluated"
-  themes: [coordination]
+  themes: [coordination, learning]
   summary: "Members about to be evaluated take part in more peer evaluations while choosing carefully which ones. Firms that adopt peer evaluation should expect it to be gamed in predictable ways."
   authors: "Klapper, H., Piezunka, H., & Dahlander, L."
   year: 2024
@@ -110,7 +110,7 @@
       url: "papers/richter-et-al-2023-managing-exploration.pdf"
 
 - title: "On the effects of authority on peer motivation: Learning from Wikipedia"
-  themes: [coordination]
+  themes: [coordination, learning]
   summary: "Why does anyone accept being overruled by someone with no formal power over them? Lateral authority can settle coordination conflicts without the motivational cost that hierarchy usually imposes."
   authors: "Klapper, H., & Reitzig, M."
   year: 2018
