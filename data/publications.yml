@@ -54,6 +54,8 @@
   links:
     - label: Article
       url: "https://journals.sagepub.com/doi/10.1177/14761270261419599"
+    - label: Accepted manuscript (PDF)
+      url: "papers/klapper-et-al-2026-talk-isnt-always-cheap-accepted.pdf"
     - label: Code
       url: "https://github.com/helgeklapper/deliberation"
 
