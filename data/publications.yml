@@ -1,17 +1,16 @@
 # Published and forthcoming articles. Newest first.
 # Edit this file to update the Research page. Fields:
-#   title, authors, year, venue, abbr (journal initials shown large), details (vol/issue/pages),
+#   title, authors, year, venue, details (vol/issue/pages),
 #   note (awards etc.), themes (coordination / learning / ai / blockchain), summary (one plain-language sentence),
 #   abstract, links: list of {label, url}
 # Host a PDF only if the article is open access (check the license on page 1). Put it in papers/.
 
 - title: "Collaboration post-acquisition: The role of acquirers' motives"
   themes: [coordination]
-  summary: "Collaborations with a target's partners often fade after an acquisition, yet they are a reason to acquire. Protection-motivated acquirers see collaboration intensify; extraction-motivated acquirers, after code or talent, see it decline."
+  summary: "Across 143 acquisitions involving 298 open-source projects, protection-motivated acquisitions were associated with intensified collaboration with a target's partners, while extraction-motivated acquisitions were associated with diminished collaboration."
   authors: "Piezunka, H., Klapper, H., Vetter, M., & Henkel, J."
   year: 2026
   venue: "Strategic Management Journal"
-  abbr: SMJ
   details: "online first"
   abstract: >-
     What role do collaborations with a target's partners play in an acquisition, and how do these
@@ -32,11 +31,10 @@
 
 - title: "Talk isn't always cheap: A theory of social influence and deliberation in group decision-making"
   themes: [coordination]
-  summary: "Decentralized organizations rely on deliberation to do what a manager would otherwise do. Whether a group then outperforms its average member, or its best, depends on how its network channels informational against normative influence."
+  summary: "An agent-based model examines how group network structure shapes informational and normative influence, and when deliberation can help a group outperform its best member."
   authors: "Klapper, H., Maciejovsky, B., Puranam, P., & Reitzig, M."
   year: 2026
   venue: "Strategic Organization"
-  abbr: SO
   details: "online first"
   abstract: >-
     Organizations often rely on deliberative groups (committees, taskforces, boards) to make decisions,
@@ -61,11 +59,10 @@
 
 - title: "Peer evaluations: Evaluating and being evaluated"
   themes: [coordination, learning]
-  summary: "Members about to be evaluated take part in more peer evaluations while choosing carefully which ones. Firms that adopt peer evaluation should expect it to be gamed in predictable ways."
+  summary: "Using Wikipedia peer evaluations and interviews, we examine how members about to be evaluated adjust their evaluations strategically, participating in more evaluations while carefully targeting which ones they join."
   authors: "Klapper, H., Piezunka, H., & Dahlander, L."
   year: 2024
   venue: "Organization Science"
-  abbr: OS
   details: "35(4), 1363–1387"
   abstract: >-
     Peer evaluations place organizational members in a dual role: they evaluate their peers and are being
@@ -90,11 +87,10 @@
 
 - title: "Managing exploration in organizations: The effect of superior monitoring on subordinate search behavior"
   themes: [coordination]
-  summary: "Monitored subordinates search more than they otherwise would, to show visible effort. That points to a hidden cost of flat designs: without monitoring, employees explore less."
+  summary: "In four laboratory studies with 444 participants, managerial monitoring increased search distance and duration; similar interventions from peers and subordinates were ineffective."
   authors: "Richter, V., Janjic, R., Klapper, H., Keck, S., & Reitzig, M."
   year: 2023
   venue: "Strategic Management Journal"
-  abbr: SMJ
   details: "44(9), 2226–2254"
   abstract: >-
     In this article, we explore the effects of managerial monitoring on the behavior of subordinates tasked
@@ -111,11 +107,10 @@
 
 - title: "On the effects of authority on peer motivation: Learning from Wikipedia"
   themes: [coordination, learning]
-  summary: "Why does anyone accept being overruled by someone with no formal power over them? Lateral authority can settle coordination conflicts without the motivational cost that hierarchy usually imposes."
+  summary: "Using 642,916 Wikipedia article–discussion pages, we examine the conditions under which members welcome lateral authority in resolving coordination conflicts."
   authors: "Klapper, H., & Reitzig, M."
   year: 2018
   venue: "Strategic Management Journal"
-  abbr: SMJ
   details: "39(8), 2178–2203"
   abstract: >-
     We investigate the conditions under which authority can be deployed without reducing subordinate
@@ -135,11 +130,10 @@
 
 - title: "Surrendering control to gain advantage: Reconciling openness and the resource-based view of the firm"
   themes: [coordination]
-  summary: "Access to an open resource, as part of a bundle, can give control without ownership, which changes what competitive advantage rests on when innovation is open."
+  summary: "A formal model examines whether and when firms can increase profitability by opening parts of their resource base."
   authors: "Alexy, O., West, J., Klapper, H., & Reitzig, M."
   year: 2018
   venue: "Strategic Management Journal"
-  abbr: SMJ
   details: "39(6), 1704–1727"
   abstract: >-
     Strategic openness (firms voluntarily forfeiting control over resources) seemingly challenges the premise
