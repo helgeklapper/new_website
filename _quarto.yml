@@ -5,6 +5,9 @@ project:
     - CNAME
     - fonts/
     - papers/
+    - home.html     # redirects for old site URLs
+    - coding.html
+  post-render: _scripts/fix-sitemap.lua
   render:
     - "*.qmd"
     - "!README.md"
@@ -52,3 +55,4 @@ format:
     smooth-scroll: true
     anchor-sections: false
     title-block-style: none
+    canonical-url: true
